@@ -1,0 +1,62 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
+.header  {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.cart .cartItems {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+    padding: 20px;
+    margin-left: 2rem;
+}
+.checkout {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.checkout button {
+    padding: 10px;
+    background-color: #131921;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.checkout button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.checkout span {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.sub-total {
+    font-size: 20px
+}
+.empty-cart {
+    text-align: center;
+}
+.empty-cart button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.empty-cart button {
+    padding: 10px;
+    background-color: #131921;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}

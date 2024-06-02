@@ -1,0 +1,21 @@
+ 
+.cart-details img {
+        transform: scale(0.8);
+        object-fit: cover;
+}
+.cart-details span {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.count input {
+    width:50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 97, 97);
+}
+.count button {
+    border-radius: 5px;
+    border: 1px solid rgb(99, 97, 97);
+}
+ 
